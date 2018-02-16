@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.mmacias.unidadii.MainActivity"
+    android:background="@drawable/fondo2"
+
+    >
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imv_calculadora"
+            android:layout_width="@dimen/w_layout"
+            android:layout_height="wrap_content"
+            android:src="@drawable/josefabar"
+
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azul_color"
+            android:text="Visitar Página de Facebook"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/size_t" />
+
+    </TableRow>
+</TableLayout>

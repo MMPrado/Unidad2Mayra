@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SubirFotos</string>
+    <string name="subir">Subir</string>
+    <string name="seleccionar_foto">Seleccionar Foto</string>
+</resources>

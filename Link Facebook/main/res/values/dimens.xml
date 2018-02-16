@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">15pt</dimen>
+    <dimen name="textview_size">20dp</dimen>
+    <dimen name="heigt_size">200dp</dimen>
+    <dimen name="width_size">400dp</dimen>
+    <dimen name="w_layout">320dp</dimen>
+    <dimen name="size_t">13sp</dimen>
+</resources>

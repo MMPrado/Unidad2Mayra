@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/horzontal"
+    android:paddingRight="@dimen/horzontal"
+    android:paddingTop="@dimen/vertical"
+    android:paddingBottom="@dimen/vertical"
+    tools:context="mx.edu.utng.mmacias.subirfotos.MainActivitySubirImagen"
+    android:background="@drawable/fondo2">
+
+
+<TableRow>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccionar_foto"
+        android:id="@+id/foto"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/fondo_negro"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/size_text"
+
+        />
+</TableRow>
+<TableRow>
+    <ImageView
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/heigt"
+        android:id="@+id/imgfoto"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/buttonShare"
+
+
+        />
+</TableRow>
+<TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subir"
+        android:id="@+id/buttonShare"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color_black"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/size_text"
+        android:layout_alignParentRight="true"/>
+</TableRow>
+</TableLayout>
